@@ -62,7 +62,7 @@ Status PopS(SStack *S,char *e) {
     *e = *--S->top;
     return OK;
 }
-Status SStackTraverse(SStack S,Status(*visit)()){
+Status SStackTraverse(SStack S){
     while(S.top > S.base) {
         visit(*S.base++);
     }

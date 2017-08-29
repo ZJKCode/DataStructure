@@ -13,6 +13,7 @@
 #include "LineEdit.h"
 #include "Evaluate.h"
 #include "Hanoi.h"
+#include "OpQueue.h"
 
 // 基本操作的算法描述不部分
 
@@ -247,13 +248,14 @@ int main(int argc, const char * argv[]) {
 //    LineEdit();
     printf("\n");
 //    testEvl();
-    char ch1 = 'A';
-    char ch2 = 'B';
-    char ch3 = 'C';
-    int num;
-    printf("请输入圆盘的个数:");
-    scanf("%d",&num);
-    hanoi(num, ch1, ch2, ch3);
+//    char ch1 = 'A';
+//    char ch2 = 'B';
+//    char ch3 = 'C';
+//    int num;
+//    printf("请输入圆盘的个数:");
+//    scanf("%d",&num);
+//    hanoi(num, ch1, ch2, ch3);
+    dealtMain();
     return 0;
 }
 

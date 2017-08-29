@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bank_Simulation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SweetC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>18B1CDE61F5560880011114E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>18C949B61ED447CB0015CA4C</key>
 		<dict>
 			<key>primary</key>

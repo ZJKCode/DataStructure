@@ -11,6 +11,10 @@
 		1857BE1E1F4EBDF5004786B3 /* Stack2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1857BE1C1F4EBDF5004786B3 /* Stack2.c */; };
 		1857BE221F4EC90B004786B3 /* jugebracket.c in Sources */ = {isa = PBXBuildFile; fileRef = 1857BE201F4EC90B004786B3 /* jugebracket.c */; };
 		1857BE251F4EDC36004786B3 /* LineEdit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1857BE231F4EDC36004786B3 /* LineEdit.c */; };
+		18B1CDDC1F5514760011114E /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CDDA1F5514760011114E /* Queue.c */; };
+		18B1CDDF1F5520DD0011114E /* OpQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CDDD1F5520DD0011114E /* OpQueue.c */; };
+		18B1CDEA1F5560880011114E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CDE91F5560880011114E /* main.c */; };
+		18B1CDF01F55609F0011114E /* discreteEvent.c in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CDEE1F55609F0011114E /* discreteEvent.c */; };
 		18C949BB1ED447CB0015CA4C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18C949BA1ED447CB0015CA4C /* main.c */; };
 		18C949C31ED4481A0015CA4C /* Test.c in Sources */ = {isa = PBXBuildFile; fileRef = 18C949C11ED4481A0015CA4C /* Test.c */; };
 		18D3E1EE1F53CA5800640163 /* Hanoi.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D3E1EC1F53CA5800640163 /* Hanoi.c */; };
@@ -18,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		18B1CDE51F5560880011114E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		18C949B51ED447CB0015CA4C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,6 +52,14 @@
 		1857BE211F4EC90B004786B3 /* jugebracket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jugebracket.h; sourceTree = "<group>"; };
 		1857BE231F4EDC36004786B3 /* LineEdit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LineEdit.c; sourceTree = "<group>"; };
 		1857BE241F4EDC36004786B3 /* LineEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineEdit.h; sourceTree = "<group>"; };
+		18B1CDDA1F5514760011114E /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		18B1CDDB1F5514760011114E /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		18B1CDDD1F5520DD0011114E /* OpQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpQueue.c; sourceTree = "<group>"; };
+		18B1CDDE1F5520DD0011114E /* OpQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpQueue.h; sourceTree = "<group>"; };
+		18B1CDE71F5560880011114E /* Bank_Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank_Simulation; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1CDE91F5560880011114E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		18B1CDEE1F55609F0011114E /* discreteEvent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = discreteEvent.c; sourceTree = "<group>"; };
+		18B1CDEF1F55609F0011114E /* discreteEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = discreteEvent.h; sourceTree = "<group>"; };
 		18C949B71ED447CB0015CA4C /* SweetC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SweetC; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C949BA1ED447CB0015CA4C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		18C949C11ED4481A0015CA4C /* Test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test.c; sourceTree = "<group>"; };
@@ -50,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		18B1CDE41F5560880011114E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18C949B41ED447CB0015CA4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,10 +88,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B1CDE81F5560880011114E /* Bank_Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				18B1CDEE1F55609F0011114E /* discreteEvent.c */,
+				18B1CDEF1F55609F0011114E /* discreteEvent.h */,
+				18B1CDE91F5560880011114E /* main.c */,
+			);
+			path = Bank_Simulation;
+			sourceTree = "<group>";
+		};
 		18C949AE1ED447CB0015CA4C = {
 			isa = PBXGroup;
 			children = (
 				18C949B91ED447CB0015CA4C /* SweetC */,
+				18B1CDE81F5560880011114E /* Bank_Simulation */,
 				18C949B81ED447CB0015CA4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				18C949B71ED447CB0015CA4C /* SweetC */,
+				18B1CDE71F5560880011114E /* Bank_Simulation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +126,10 @@
 				1857BE211F4EC90B004786B3 /* jugebracket.h */,
 				1857BE1C1F4EBDF5004786B3 /* Stack2.c */,
 				1857BE1D1F4EBDF5004786B3 /* Stack2.h */,
+				18B1CDDA1F5514760011114E /* Queue.c */,
+				18B1CDDB1F5514760011114E /* Queue.h */,
+				18B1CDDD1F5520DD0011114E /* OpQueue.c */,
+				18B1CDDE1F5520DD0011114E /* OpQueue.h */,
 				18D3E1EC1F53CA5800640163 /* Hanoi.c */,
 				18D3E1ED1F53CA5800640163 /* Hanoi.h */,
 				18D3E1EF1F53CDEB00640163 /* Evaluate.c */,
@@ -102,6 +146,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		18B1CDE61F5560880011114E /* Bank_Simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1CDEB1F5560880011114E /* Build configuration list for PBXNativeTarget "Bank_Simulation" */;
+			buildPhases = (
+				18B1CDE31F5560880011114E /* Sources */,
+				18B1CDE41F5560880011114E /* Frameworks */,
+				18B1CDE51F5560880011114E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bank_Simulation;
+			productName = Bank_Simulation;
+			productReference = 18B1CDE71F5560880011114E /* Bank_Simulation */;
+			productType = "com.apple.product-type.tool";
+		};
 		18C949B61ED447CB0015CA4C /* SweetC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C949BE1ED447CB0015CA4C /* Build configuration list for PBXNativeTarget "SweetC" */;
@@ -128,6 +189,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
+					18B1CDE61F5560880011114E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					18C949B61ED447CB0015CA4C = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -147,15 +212,26 @@
 			projectRoot = "";
 			targets = (
 				18C949B61ED447CB0015CA4C /* SweetC */,
+				18B1CDE61F5560880011114E /* Bank_Simulation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		18B1CDE31F5560880011114E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1CDEA1F5560880011114E /* main.c in Sources */,
+				18B1CDF01F55609F0011114E /* discreteEvent.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18C949B31ED447CB0015CA4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B1CDDC1F5514760011114E /* Queue.c in Sources */,
 				1857BE1B1F4E8BEF004786B3 /* Stack.c in Sources */,
 				1857BE251F4EDC36004786B3 /* LineEdit.c in Sources */,
 				18D3E1F11F53CDEB00640163 /* Evaluate.c in Sources */,
@@ -163,6 +239,7 @@
 				1857BE1E1F4EBDF5004786B3 /* Stack2.c in Sources */,
 				18C949BB1ED447CB0015CA4C /* main.c in Sources */,
 				18C949C31ED4481A0015CA4C /* Test.c in Sources */,
+				18B1CDDF1F5520DD0011114E /* OpQueue.c in Sources */,
 				1857BE221F4EC90B004786B3 /* jugebracket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +247,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		18B1CDEC1F5560880011114E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B1CDED1F5560880011114E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		18C949BC1ED447CB0015CA4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -276,6 +367,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18B1CDEB1F5560880011114E /* Build configuration list for PBXNativeTarget "Bank_Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1CDEC1F5560880011114E /* Debug */,
+				18B1CDED1F5560880011114E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		18C949B21ED447CB0015CA4C /* Build configuration list for PBXProject "SweetC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

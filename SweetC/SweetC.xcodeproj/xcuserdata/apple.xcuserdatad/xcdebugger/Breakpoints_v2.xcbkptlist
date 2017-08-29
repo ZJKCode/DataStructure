@@ -9,13 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SweetC/main.c"
-            timestampString = "525604347.492328"
+            filePath = "SweetC/discreteEvent.c"
+            timestampString = "525683948.922518"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "243"
-            endingLineNumber = "243"
-            landmarkName = "main()"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "CustomerArrived()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bank_Simulation/discreteEvent.c"
+            timestampString = "525692648.456015"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "OrderInsert()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

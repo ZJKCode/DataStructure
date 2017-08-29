@@ -29,13 +29,13 @@ void LineEdit() {
             }
             ch = getchar();
         }
-        SStackTraverse(S, visit);
+        SStackTraverse(S);
         ClearSStack(&S);
         if (ch != EOF) {
             ch= getchar();
         }
     }
-    SStackTraverse(S, visit);
+    SStackTraverse(S);
 
     DestroySStack(&S);
 }

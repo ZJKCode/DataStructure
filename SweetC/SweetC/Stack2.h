@@ -40,7 +40,7 @@ long SstackLength(SStack S);
 Status GetTopS(SStack S, char *e);
 Status PushS(SStack *S,char e);
 Status PopS(SStack *S,char *e);
-Status SStackTraverse(SStack S,Status(*visit)());
+Status SStackTraverse(SStack S);
 Status visit(char e);
 
 #endif /* Stack2_h */
