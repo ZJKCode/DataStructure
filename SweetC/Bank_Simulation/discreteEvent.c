@@ -142,6 +142,7 @@ void Bank_Simulation(){
             CustomerDepature();
         }
         PrintQueue();
+        PrintEventList();
     }
     printf("\nTotal time is: %d min,average time is: %g min.\n",TotalTime,(float)TotalTime/CustomerNum);
 }// 银行排队模拟
