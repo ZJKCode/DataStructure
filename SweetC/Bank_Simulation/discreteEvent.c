@@ -30,7 +30,7 @@ typedef struct { // 单向链表结构
 typedef LinkList EventList; // 事件链接
 
 typedef struct QElemType{ // 队列元素
-    int ArriveTime; // 到达事间
+    int ArriveTime; // 到达时间
     int Duration; // 办理业务所需时间
     struct QElemType *next;
 
@@ -110,19 +110,20 @@ void CustomerArrived(){
     t=en.OccurTime+interTime;
     if (t<CloseTime) { // 银行尚未关门
         printf("A new customer will arrive at:%d\n",en.OccurTime);
-        OrderInsert(&ev, NewEnvent(t, 0));
+        OrderInsert(&ev, NewEnvent(t, 0)); // 链表插入新的事件
         i = ShortestQueue();// 最短队列
         e.ArriveTime=en.OccurTime;
         e.Duration = durTime;
         EnQueue(&q[i], e);
         if (QueueLength(q[i])==1) {
+            // 客户将要离开的事件
             OrderInsert(&ev, NewEnvent(en.OccurTime+durTime, i));
         }
     }
 }// 顾客到达事件
 void CustomerDepature(){
     int i = en.NType;
-    DelQueue(&q[i], &customer);
+    DelQueue(&q[i], &customer); // 将事件从队列中删除
     printf("A customer leaves at:%d\n",en.OccurTime);
     TotalTime += en.OccurTime - customer.ArriveTime;
     if (!EmptyQueue(&q[i])) {
